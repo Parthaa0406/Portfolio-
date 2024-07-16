@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    
+   <header class="header">
+    <p class="logo"><span>P</span>SY<span></span></p>
+    <nav class="navbar">  
+        <a href="#home" >Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </nav>
+    <a href="#contact" class="contact">Contact Me</a>
+    </header>
+
+   <section class="home" id="home">
+    <div class="content">
+        <h3>Hi</h3>
+        <h1>I'm <span>Parthasarathy<br></span>a Web Developer</h1>
+        <p>Web Development | Frontend Development | User Interface</p>
+        <div class="btn">
+            <button onclick="window.location.href='mailto:sarathypartha77765@gmail.com';" class="btn-1">Hire Me</button>
+        </div>
+    </div>
+    <div class="pic">
+        <img src="images\img_1.jpeg" alt="Developer Pic">
+    </div>
+</section>
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images\img_2.jpg" alt="My Pic">
+    </div>
+    <div class="about-content">
+        <h2 class="headimg">About <span>Me</span></h2>
+        <h3>Web <span>Developer</span></h3>
+        <p>Hello! I'm Parthasarathy, a web developer passionate about creating beautiful and functional websites. I recently graduated in Computer Applications and am skilled in HTML, CSS, and modern frameworks. I love learning new technologies and solving creative challenges. Welcome to my portfolio explore my projects and see my growth as a developer.</p>
+        <a href="My_Resume.pdf" download class="btn-2">Download Resume</a>
+    </div>
+</section>           
+<section class="skills" id="skills">
+    <h2 id="active">Skills</h2>
+    <div class="skills-container">
+        <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Backend Development</h3>
+            <ul>
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>Flask</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Tools & Technologies</h3>
+            <ul>
+                <li>Git & GitHub</li>
+                <li>Bootstrap</li>
+                <li>Visual Studio Code</li>
+            </ul>
+        </div>
+    </div>
+</section><br>
+
+<h2 id="projects">Projects</h2>
+
+<section class="projects" >
+    <div class="project">
+        <img src="images\img_3.png">
+        <h4>Ecommerce Website</h4>
+        <button ><a href="https://github.com/Parthaa0406/Ecommerce-Project/tree/main/project%20one">View Source Code</a></li></button>
+    </div>
+    <div class="project">
+        <img src="images\img_4.png">
+        <h4>Landing Page</h4>
+        <button><a href="https://github.com/Parthaa0406/Landing-page/tree/main/Project%20two">View Source Code</a></li></button>
+    </div>
+    <div class="project">
+        <img src="images\img_5.png">
+        <h4>Portfolio Website</h4>
+        <button><a href="#">View Source Code</a></li></button>
+    </div>
+    </section>
+
+   <section class="contact-form" id="contact">
+   <h2 class="contact-form">Contact <span>Me</span></h2>
+
+   <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="ca62ccad-01f4-4a79-b20e-b98da088f161">
+
+    <div class="input-box">
+        <input type="text" placeholder="Fullname">
+        <input type="email" placeholder="Email">
+    </div>
+
+    <div class="input-box">
+        <input type="number" placeholder="Phone Number">
+        <input type="text" placeholder="Subject">
+    </div>
+    <textarea name="msg"  cols="30" rows="10" place>Your Message</textarea>
+    <input type="submit" value="Send Message" class="btn-1">
+
+   </form>
+
+   </section>  
+   <footer class="footer">
+    <div class="social">
+        <a href="https://www.linkedin.com/in/parthasarathy0406" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Parthaa0406" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="mailto:sarathypartha77765@gmail.com;"><i class="bi bi-envelope-at-fill"></i></a>
+        <a href="https://wa.me/919787529108" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="tel:+919787529108"><i class="bi bi-phone"></i></a>     
+    </div>
+    <ul class="list">
+       
+        <li>
+            <a href="#projects">Projects</a>
+        </li> 
+        <li>
+            <a href="#about">About Me</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+     
+    </ul>
+
+    <p class="copyright">© 2024 Parthasarathy All Rights Reserved</p>
+    
+</footer>  
+</body>
+</html>
